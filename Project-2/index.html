@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Best Online Food Delivery Service in India | Foodguy.com</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <a href="">
+                <img src="./foodguy.jpeg" alt="">
+        </a>
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">Welcome to Foodguy</h1>
+        <p>FoodGuy: Delicious food, unbeatable prices. Wide range of dishes, easy ordering. 
+            The perfect food ordering website for food lovers! </p>
+        
+        <!-- <button class="btn" >Order Now</button> -->
+    </section>
+    <section id="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="./1.png" alt="">
+                <h2 class="h-secondary center">Food Catering</h2>
+                <p class="center">Treat your guests to an unforgettable culinary experience with our food catering services.
+                     From corporate events to weddings, our team of experts will create a custom menu to suit your taste buds and budget.
+                      Enjoy exceptional food and seamless service that will leave a lasting impression.</p>
+                    <div class="center">
+                        <a href="./index1.html" class="btn">Order Now</a>
+                    <!-- <button class="button">Order Now</button> -->
+                    </div>
+                </div>
+            <div class="box">
+                <img src="./2.png" alt="">
+                <h2 class="h-secondary center">Bulk Ordering</h2>
+                <p class="center">Save time and money with our bulk ordering options. 
+                    Whether you're stocking up for your business or hosting a large event, we offer a wide variety of products to suit your needs. 
+                    Enjoy competitive pricing and fast delivery to make your shopping experience hassle-free.</p>
+                    <div class="center">
+                        <a href="./index2.html" class="btn">Order Now</a>
+                        <!-- <button class="button">Order Now</button> -->
+                        </div>
+            </div>
+            <div class="box">
+                <img src="./3.png" alt="">
+                <h2 class="h-secondary center">Food Ordering</h2>
+                <p class="center">Our food delivery service offers a hassle-free way to enjoy delicious restaurant-quality food from a variety of cuisines without leaving your home. 
+                    Choose from top local restaurants, and our delivery drivers will safely bring your order to your doorstep with real-time tracking updates.</p>
+                    <div class="center">
+                        </div>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="./foodguyimage1.jpg" alt="Our Client" class = "image">
+                <p class="paragraph">Family</p>
+            </div>
+            <div class="client-item">
+                <img src="./foodguyimage2.jpg" alt="Our Client" class = "image">
+                <p class="paragraph">Local cafe</p>
+            </div>
+          
+            <div class="client-item">
+                <img src="./foodguyimage3.jpg" alt="Our Client" class = "image">
+                <p class="paragraph">Restaurant</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="" id = "contactForm">
+
+                <div class="alert">Your Form Submited Successfully...</div>
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input required type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="order">Order: </label>
+                    <input required type="order" name="name" id="order" placeholder="Enter your order">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label>
+                    <input required minlength="10" type="phone" name="name" id="phone" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="address">Address: </label>
+                    <input required type="address" name="name" id="phone" placeholder="Enter your address">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="20" rows="5"></textarea>
+                </div>
+                <button class = "btn" id="btn" type="submit">Submit</button>
+            </form>
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.Foodguy.com. All rights reserved!
+        </div>
+    </footer>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+<script src="app.js"></script>
+</html>

@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.bg-container{
+	/* background-color: rgba(0, 30, 255, 0.153); */
+	background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("https://img.freepik.com/premium-photo/food-packaging-yellow-background-quarantine-food-delivery-home-flatlay-banner-with-copyspace_168091-169.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+    height: 150vh; 
+    background-size: cover;
+	opacity: 0.8;
+	/* opacity: .7; */
+}
+
+.items{
+	display: grid;
+	background-size: cover;
+	grid-template-columns: repeat(4, 1fr);
+	padding: 20px 10px;
+	grid-column-gap: 30px;
+	grid-row-gap: 30px; 
+	/* border: 2px solid red;  */  
+	z-index: 999;
+}
+
+.item{
+    
+    /* border: 2px solid black; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px;
+	
+}
+
+.image{
+	width: 20vw;
+	height: 30vh;
+	border-radius: 10px;
+	/* opacity: 1; */
+	box-shadow: 12px 11px 16px -5px rgba(0,0,0,0.85);
+-webkit-box-shadow: 12px 11px 16px -5px rgba(0,0,0,0.85);
+-moz-box-shadow: 12px 11px 16px -5px rgba(0,0,0,0.85);
+}
+.item p{
+	font-family: Bree serif;
+	font-size: medium;
+	margin: 0px 0px;
+	padding: 4px;
+	/* border: 2px solid red; */
+}
+
+.p{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.button{
+	background-color: rgb(212, 173, 0);
+	border-width: 0px;
+	font-size: 15px;
+	color: rgb(250, 249, 251);
+	border-radius: 5px;
+	font-family: Bree serif;
+	padding: 4px 7px;
+	border: 1px solid white;
+	cursor: pointer;
+}
+.button:hover{
+	background-color: rgb(170, 128, 0);
+}
+.button-end{
+	background-color: rgba(0, 0, 0, 0.158);
+	border-width: 0px;
+	font-size: 15px;
+	color: blueviolet;
+	border-radius: 5px;
+    height: 30px;
+    width: 45px;
+	padding: 10px;
+	margin: 10px;
+	font-family: Bree serif;
+}
